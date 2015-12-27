@@ -1,0 +1,7 @@
+.et_overlay {
+    top:30px;
+}
+ 
+.et_shop_image:hover .et_overlay, .et_portfolio_image:hover .et_overlay{
+    top:0;
+}
