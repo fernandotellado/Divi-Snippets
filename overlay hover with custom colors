@@ -1,0 +1,10 @@
+.et_overlay {
+    background: rgba(50, 200, 235, 0.6); /* overlay background color */
+    border: none; /* border style */
+}
+ 
+.et_shop_image .et_overlay:before, .et_portfolio_image .et_overlay:before{
+    color: #FFF !important; /* + icon color */
+}
+ 
+.et_shop_image:hover .et_overlay, .et_portfolio_image:hover .et_overlay { opacity: 1; } /* overlay opacity */
