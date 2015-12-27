@@ -1,0 +1,11 @@
+.et_shop_image:hover, .et_portfolio_image:hover, .et_pb_post img:hover {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    filter: grayscale(100%);
+}
+ 
+.et_pb_post img{-moz-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s}
+.et_overlay {background: rgba(255, 255, 255, .25);}
+.et_overlay:before {color: #fff !important; text-shadow: 0 1px 3px rgba(0,0,0,.3);}
+.et_shop_image:hover .et_overlay, .et_portfolio_image:hover .et_overlay { opacity: 1; border: 0 solid #e5e5e5;}
