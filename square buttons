@@ -1,0 +1,5 @@
+.et_pb_promo_button, .et_pb_newsletter_button, a.et_pb_more_button, .et_pb_pricing_table_button {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
