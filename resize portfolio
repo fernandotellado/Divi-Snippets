@@ -1,0 +1,29 @@
+/* Set the image widths */
+.et_pb_portfolio_grid .et_pb_portfolio_item,
+.et_pb_portfolio_grid .column_width,
+.et_pb_portfolio_grid .et_pb_portfolio_image,
+.et_pb_portfolio_grid .et_pb_portfolio_image.portrait img
+{
+    width: 250px !important;
+}
+.et_pb_portfolio_grid .et_pb_portfolio_image img
+{
+    min-width: 250px;
+}
+
+/* Set the image heights */
+.et_pb_portfolio_grid .et_pb_portfolio_image,
+.et_pb_portfolio_grid .et_pb_portfolio_image.landscape img
+{
+    height: 250px !important;
+}
+.et_pb_portfolio_grid .et_pb_portfolio_image img
+{
+    min-height: 250px;
+}
+
+/* Set the spacing between images */
+.et_pb_portfolio_grid .et_pb_portfolio_item { 
+	margin-bottom:25px !important; 
+	margin-right: 25px !important; 
+}
