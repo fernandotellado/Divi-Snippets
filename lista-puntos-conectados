@@ -1,0 +1,90 @@
+//Ejemplo: http://www.elegantthemes.com/blog/wp-content/uploads/2016/01/connected-bullet-lists.png
+
+
+.dots-list {
+ 
+width: 100%;
+ 
+}
+ 
+.dots-list ol {
+ 
+padding-left: 50px;
+ 
+position: relative;
+ 
+margin-bottom: 20px;
+ 
+list-style: none !important;
+ 
+}
+ 
+.dots-list ol li {
+ 
+position: relative;
+ 
+margin-top: 0em;
+ 
+margin-bottom: 20px;
+ 
+}
+ 
+.dots-list ol li .number_divider {
+ 
+position: absolute;
+ 
+left: -50px;
+ 
+font-weight: 800;
+ 
+font-size: 2em;
+ 
+top: -5px;
+ 
+}
+ 
+.dots-list ol li:before {
+ 
+content: "";
+ 
+background: #8dbeb2;
+ 
+position: absolute;
+ 
+width: 2px;
+ 
+top: 1px;
+ 
+bottom: -21px;
+ 
+left: -24px;
+ 
+}
+ 
+.dots-list ol li:after {
+ 
+content: "";
+ 
+background: #8dbeb2;
+ 
+position: absolute;
+ 
+width: 15px;
+ 
+height: 15px;
+ 
+border-radius: 100%;
+ 
+top: 1px;
+ 
+left: -31px;
+ 
+}
+ 
+.dots-list ol li:last-child:before {
+ 
+content: "";
+ 
+background: #ffffff;
+ 
+}
