@@ -1,0 +1,23 @@
+.et_pb_toggle_open .et_pb_toggle_title:before {
+ 
+transform: rotate(180deg);
+ 
+content: "\25bc";
+ 
+transition:all 0.5s ease-in-out 0s;
+ 
+color:#e5e2d3;
+ 
+}
+ 
+.et_pb_toggle_title:before {
+ 
+content: "\25bc";
+ 
+font-size:2em;
+ 
+transition:all 0.5s ease-in-out 0s;
+ 
+color:#179baf;
+ 
+}
