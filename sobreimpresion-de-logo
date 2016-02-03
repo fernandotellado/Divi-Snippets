@@ -1,0 +1,15 @@
+#top-header {z-index: 99999;}
+ 
+#logo {
+ 
+max-height: 220%;
+ 
+margin-top: -32px;
+ 
+z-index: 100000;
+ 
+}
+ 
+@media only screen and (max-width : 980px) {
+ 
+#logo { margin-top: 0px}}
