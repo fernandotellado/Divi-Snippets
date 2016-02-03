@@ -1,0 +1,43 @@
+@media only screen and ( min-width: 1200px ) {
+ 
+.et_right_sidebar #sidebar .et_pb_widget {
+ 
+margin-right:30px !important;
+ 
+}
+ 
+.et_left_sidebar #sidebar .et_pb_widget {
+ 
+margin-left:30px !important;
+ 
+}
+ 
+.et_right_sidebar #left-area,
+ 
+.et_left_sidebar #left-area {
+ 
+width:720px !important; /* 1020 - width */
+ 
+}
+ 
+.et_right_sidebar #main-content .container:before {
+ 
+right:300px !important; /* width */
+ 
+}
+ 
+.et_left_sidebar #main-content .container:before {
+ 
+left:300px !important; /* width */
+ 
+}
+ 
+.et_right_sidebar #sidebar,
+ 
+.et_left_sidebar #sidebar {
+ 
+width:300px !important; /* width */
+ 
+}
+ 
+}
