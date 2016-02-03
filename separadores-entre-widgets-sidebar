@@ -1,0 +1,15 @@
+#sidebar .et_pb_widget {
+ 
+border-bottom: 1px solid #ddd;
+ 
+padding-bottom: 20px;
+ 
+margin-bottom: 20px;
+ 
+}
+ 
+#sidebar .et_pb_widget:last-of-type {
+ 
+border-bottom:0;
+ 
+}
