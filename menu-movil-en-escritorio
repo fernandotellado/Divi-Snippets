@@ -1,0 +1,27 @@
+@media only screen and ( min-width:980px ) {
+ 
+#et_mobile_nav_menu { display:block }
+ 
+#top-menu-nav { display:none; }
+ 
+}
+ 
+/**change these settings if you want to style it**/
+ 
+.mobile_menu_bar:before {
+ 
+content: "\61";
+ 
+font-size: 32px;
+ 
+left: 0;
+ 
+position: relative;
+ 
+top: 0;
+ 
+cursor: pointer;
+ 
+}
+ 
+}
