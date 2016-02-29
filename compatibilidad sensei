@@ -1,0 +1,39 @@
+/**
+ * Declare Sensei support
+ *
+ * This is needed to hide the Sensei theme compatibility notice your admin dashboard. Introduce this code in theme functions.php
+ */
+add_action( 'after_setup_theme', 'divi_sensei_support' );
+function divi_sensei_support() {
+	add_theme_support( 'sensei' );
+}
+
+/**
+ * Remove the default Sensei wrappers
+ */
+global $woothemes_sensei;
+remove_action( 'sensei_before_main_content', array( $woothemes_sensei->frontend, 'sensei_output_content_wrapper' ), 10 );
+remove_action( 'sensei_after_main_content', array( $woothemes_sensei->frontend, 'sensei_output_content_wrapper_end' ), 10 );
+
+/**
+ * Add Divi specific custom  Sensei content  wrappers
+ */
+add_action('sensei_before_main_content', 'divi_sensei_wrapper_start', 10);
+add_action('sensei_after_main_content', 'divi_sensei_wrapper_end', 10);
+
+function divi_sensei_wrapper_start() {
+	echo '<div id="main-content">
+			<div class="container">
+				<div id="content-area" class="clearfix">
+					<div id="left-area">';
+		//<div id="content-area" class="clearfix">'
+	//echo '<div id="primary" class="content-area"><main id="main" class="site-main" role="main">';
+}
+
+function divi_sensei_wrapper_end() {
+	echo '			</div> <!-- #left-area -->';
+	get_sidebar();
+	echo '     </div> <!-- #content-area -->
+			</div> <!-- div.container -->
+        </div><!-- #main-content -->';
+}
