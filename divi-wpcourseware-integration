@@ -1,0 +1,10 @@
+function divi_builder_course_units(){
+	return array(
+		'page',
+		'project',
+		'et_pb_layout',
+		'post',
+		'course_unit'
+		);
+}
+add_filter('et_builder_post_types', 'divi_builder_course_units');
