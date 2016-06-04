@@ -1,0 +1,3 @@
+.et-fixed-header #et-top-navigation .et-cart-info {
+    margin-top: 5px;
+ }
