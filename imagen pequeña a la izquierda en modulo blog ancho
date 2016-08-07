@@ -1,0 +1,11 @@
+/*imagen destacada en línea con el extracto en el módulo blog de ancho completo*/
+ 
+    .et_pb_posts .et_pb_post a img {
+            max-width: 210px!important;
+            float: left;
+            padding-right: 20px;}
+ 
+    @media only screen and (max-width: 980px) {
+        .et_pb_posts .et_pb_post a img{
+            float:none;
+            max-width: 250px!important;}}
