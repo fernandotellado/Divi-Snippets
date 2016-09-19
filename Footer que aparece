@@ -1,0 +1,72 @@
+/*Footeer que aparece en Divi en vez de estar fijo */
+ 
+#main-content {
+ margin-bottom: 350px; /*Esto puede que tengas que ajustarlo al contenido de tu footer*/
+}
+ 
+#main-footer {
+ position: fixed;
+ z-index: -1;
+ height: 350px; /*Esto puede que tengas que ajustarlo al contenido de tu footer*/
+ width: 100%;
+ bottom: 0;
+}
+ 
+#footer-bottom {
+ position: fixed;
+ width: 100%;
+ bottom: 0;
+ padding: 10px 0;
+}
+ 
+#footer-info, #footer-info a {
+ padding: 0;
+}
+ 
+#main-footer .container {
+ height: 100%;
+}
+ 
+#footer-widgets {
+ position: absolute;
+ bottom: 51px; /*Esto puede que tengas que ajustarlo al contenido de tu footer*/
+}
+ 
+/*Edita esta sección para pantallas de tablet*/
+@media only screen and ( max-width: 980px ) {
+  
+ #main-content {
+ margin-bottom: 450px;
+ }
+ 
+#main-footer {
+ height: 450px;
+ }
+ 
+#footer-widgets {
+ bottom: 83px;
+ }
+ 
+}
+ 
+/*Edita esta seccion para pantallas de moviles*/
+@media only screen and ( max-width: 767px ) {
+ 
+#main-content {
+ margin-bottom: 650px;
+ }
+ 
+#main-footer {
+ height: 650px;
+ }
+ 
+#footer-widgets {
+ bottom: 83px;
+ padding: 5% 0;
+ }
+ 
+#footer-widgets .footer-widget:nth-child(n), #footer-widgets .footer-widget .fwidget {
+ margin-bottom: 4.5% !important;
+ }
+ 
+}
